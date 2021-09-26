@@ -3,7 +3,7 @@ import numpy
 import scipy.spatial.distance
 all_words = []
 unique_words = []
-f = open("D:/Маша/Python/sentences.txt", 'r')
+f = open("sentences.txt", 'r')
 for line in f:
     line = line.lower()
     words_in_one_sentence = re.split(r"[^a-z]", line)
